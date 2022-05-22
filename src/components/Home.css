@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+#home{
+    background-color: #001D3D;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Raleway";
+    overflow: hidden;
+    z-index: 1;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.a {
+    display: inline-block;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    color: #27aab3;
+  }
+  
+  .a:hover {
+    color: #00eeff;
+    animation-name: rubberBand;
+    cursor: pointer;
+  }
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }
+
+.btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.btn:before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: all 0.5s;
+    z-index: -1;
+}
+
+.btn:hover:before{
+    transform: translateX(0);
+}
+
+.btn:hover{
+    border: none;
+    color: #001D3D;
+    cursor: pointer;
+}
+
+.btn span{
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.icon{
+  transition: all 0.3s;
+}
+
+
+.btn:hover .icon{
+    transform: rotate(90deg);
+}
+
+.box{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FFC300;
+    animation: boxes 12s ease-in infinite;
+    transform: scale(0);
+    opacity: 0.9;
+}
+.box:nth-child(2) {
+    top: 40%;
+    left: 25%;
+    border-color: #da1200;
+    animation-delay: 2s;
+  }
+  
+  .box:nth-child(3) {
+    top: 50%;
+    left: 75%;
+    animation-delay: 4s;
+  }
+  
+  .box:nth-child(4) {
+    top: 10%;
+    left: 90%;
+    border-color: #da1200;
+    animation-delay: 6s;
+  }
+  
+  .box:nth-child(5) {
+    top: 85%;
+    left: 10%;
+    border-color: #da1200;
+    animation-delay: 8s;
+  }
+  
+  .box:nth-child(6) {
+    top: 10%;
+    left: 50%;
+    animation-delay: 10s;
+  }
+
+  .box:nth-child(7) {
+    top: 78%;
+    left: 90%;
+    border-color: #da1200;
+    animation-delay: 12s;
+  }
+
+  
+  @keyframes boxes {
+    0% {
+      transform: scale(0) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(20) rotate(960deg);
+      opacity: 0;
+    }
+  }
+
+
+@media screen and (max-width: 630px) {
+  .heading{
+    font-size: 2.5rem;
+  }
+
+  .btn{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .heading{
+    font-size: 1.8rem;
+  }
+  
+  .btn{
+    font-size: 20px;
+  }
+
+}

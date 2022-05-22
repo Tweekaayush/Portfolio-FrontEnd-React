@@ -1,0 +1,98 @@
+#projects{
+    position: relative;
+    width: 100%;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Raleway";
+    background-color: rgb(227, 254, 254);
+}
+
+
+.projects-heading{
+    margin: 3rem;
+}
+
+.projects-heading h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #001D3D;
+    font-weight: 700;
+}
+
+.projects-heading hr{
+    margin: 5px;
+    border: 0;
+    height: 1.5px;
+    background: #001D3D;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+    margin:auto;
+    width: 60%;
+}
+
+hr.projectHeadLine { 
+    border:none;
+    border-bottom: 1px solid rgb(141, 255, 255);
+    width: 100%;
+    height: 50px;
+    margin: -50px auto 50px;
+    box-shadow: 0 20px 20px -20px rgb(28, 170, 170);
+  }
+
+hr.projectFootLine { 
+    border:none;
+    border-bottom: 1px solid rgb(141, 255, 255);
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 20px 20px -20px rgb(28, 170, 170);
+    margin: 50px auto 20px;
+    transform: rotate(180deg);
+} 
+
+.project-list{
+    justify-content: center;
+    padding: 20px;
+}
+
+.projects-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.projects-footer h1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px;
+    color: #05004c;
+}
+
+.projects-footer hr{
+    margin: 2px;
+    border: 0;
+    height: 2px;
+    background: #001D3D;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
+    margin:auto;
+    width: 100%;
+}
+
+.projects-footer a{
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-image: linear-gradient(92.88deg, #002f62 9.16%, #001D3D 43.89%, #05004c 64.72%);
+    box-shadow: 10px 10px 10px -10px rgb(50, 50, 50);
+    color: white;
+    width: 40%;
+}

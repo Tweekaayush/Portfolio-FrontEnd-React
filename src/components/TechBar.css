@@ -1,0 +1,50 @@
+.techBar{
+    height: 2.5rem;
+    width: 90%;
+    background-color: rgb(202, 200, 200);
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    align-items: center;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.techBar .bar-head{
+    width: 20%;
+    height: 100%;
+    background-color: #003566;
+    padding: 7px;
+    color: white;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+.techBar:hover{
+    border: 1px solid rgb(1, 89, 243);
+    transform: scale(1.05);
+}
+
+.techBar .bar-length{
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: #0180F4;
+    color: #0656a1;
+    padding: 10px;
+    font-size: 15px;
+    align-items: center;
+}
+
+@media screen and (max-width:1200px) {
+    .techBar .bar-head{
+        padding: 4px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .techBar .bar-head{
+        font-size: 11px;
+    }
+}
