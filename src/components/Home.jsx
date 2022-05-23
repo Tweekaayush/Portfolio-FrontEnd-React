@@ -29,7 +29,7 @@ function Home(){
                 <span className="a">l</span>
                 .
                 <br/>
-                I am a <Typed strings={["Front-End Developer.", "UI/UX Designer."]} typeSpeed={80} backSpeed={70} loop />
+                I am a <Typed strings={["Front-End Developer.", "UI/UX Designer."]} typeSpeed={80} backSpeed={70} backDelay ={2000} loop />
             </div>
             <Link to="projects" spy={true} smooth={true} duration={500} offset={-40} className="btn">
                 <span>View my work.</span>
