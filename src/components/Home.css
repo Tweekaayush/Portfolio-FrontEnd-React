@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 #home{
+    width: 100%;
     background-color: #001D3D;
     position: relative;
     height: 100vh;

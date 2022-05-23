@@ -25,7 +25,7 @@ function Canvas(props){
         class Particle{
             constructor(){
                 this.x = mouse.x;
-                this.y = mouse.y;
+                this.y = mouse.y + window.scrollY;
                 this.size = Math.random()*5 + 1;
                 this.speedX = Math.random() *3 - 1.5;
                 this.speedY = Math.random() *3 - 1.5;
@@ -67,6 +67,7 @@ function Canvas(props){
                 particlesArray.push(new Particle());
             }
         });
+
 
         
 

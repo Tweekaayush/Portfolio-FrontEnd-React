@@ -91,10 +91,14 @@
     overflow: hidden; 
     border-radius: 50%; 
     margin: auto;
-    box-shadow: 10px 10px 10px -5px rgb(118, 118, 118);
-    
+    box-shadow: 10px 5px 20px -10px rgb(6, 68, 255);
+    transition: all 0.5s;    
 }
 
+.left-about .my-img:hover{
+    transform: scale(1.1);
+    box-shadow: -10px 5px 20px -10px rgb(192, 2, 250);
+}
 
 .my-img img{
     width: 100%;

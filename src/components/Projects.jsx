@@ -17,7 +17,7 @@ function Project(){
     function createCard(project){
         return(
         <Grid key = {project.id} item xs={10} md={6} lg={3}>
-            <Card key={project.id} img = {project.img} title = {project.title} />
+            <Card key={project.id} img = {project.img} title = {project.title} link={project.link} />
         </Grid>
         );
     }
