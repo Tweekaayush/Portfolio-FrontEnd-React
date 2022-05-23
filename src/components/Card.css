@@ -63,9 +63,8 @@
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 40px;
-    padding: 20px;
+    padding: 15px;
     letter-spacing: 2px;
-
 }
 
 .card-btn{
@@ -102,4 +101,13 @@
 .card-btn:hover{
     border: none;
     color: rgba(1, 15, 80, 1);
+}
+
+@media screen and (max-width: 510px) {
+    .card-title{
+        font-size: 27px;
+    }
+    .card-btn{
+        font-size: 18px;
+    }
 }
