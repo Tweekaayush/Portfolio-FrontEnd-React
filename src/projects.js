@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         img: todolist,
         title:"TodoList",
-        link:"https://tweekaayush.github.io/Todo-List-Project/"
+        link:"https://tweekaayush.github.io/todolist-app-react/"
     },
     {
         id:2,
