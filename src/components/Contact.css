@@ -100,7 +100,8 @@ textarea{
     border-radius: 10px;
     margin-left: auto;
     letter-spacing: 2px;
-    transition: all 1s;
+    transition: ease-in-out 1s;
+    box-shadow: rgb(7, 0, 52) 0px 2px 4px 0px, rgb(7, 0, 52) 0px 2px 16px 0px;
     overflow: hidden;
 }
 

@@ -3,7 +3,6 @@
     width: 100%;
     background-color: #001D3D;
     position: relative;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +10,8 @@
     font-family: "Raleway";
     overflow: hidden;
     z-index: 1;
+    height: 754px;
+    overflow: hidden;
 }
 
 .heading{
@@ -83,6 +84,7 @@
     font-weight: bold;
     align-items: center;
     text-align: center;
+    box-shadow: rgb(7, 0, 52) 0px 2px 4px 0px, rgb(7, 0, 52) 0px 2px 16px 0px;
 }
 
 .btn:before{

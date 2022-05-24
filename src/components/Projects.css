@@ -92,7 +92,12 @@ hr.projectFootLine {
     letter-spacing: 2px;
     border-radius: 10px;
     background-image: linear-gradient(92.88deg, #002f62 9.16%, #001D3D 43.89%, #05004c 64.72%);
-    box-shadow: 10px 10px 10px -10px rgb(50, 50, 50);
+    box-shadow: rgb(7, 0, 52) 0px 2px 4px 0px, rgb(7, 0, 52) 0px 2px 16px 0px;
     color: white;
     width: 40%;
+    transition: all 0.5s;
+}
+
+.projects-footer a:hover{
+    transform: scale(1.1);
 }

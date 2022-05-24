@@ -8,7 +8,7 @@ import Canvas from "./Canvas";
 function Home(){
     return(
         <section id="home" className="home">
-            <Canvas/>
+            {/* <Canvas/> */}
             <div className="heading">
                 Hello, I'm
                 <span> </span>

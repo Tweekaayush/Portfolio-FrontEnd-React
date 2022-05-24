@@ -20,7 +20,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
+    height: 60px;
     position: absolute;
     padding: 0 20px;
 }
@@ -85,13 +85,13 @@ body{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        top: 8vh;
+        top: 60px;
         left: 0;
         height: 100%;
         width: 100%;
+        gap: 2rem;
         background-color: rgba(0, 53, 102, 0.98);
         transform: translateX(100%);
-        gap: 2rem;
         transition: ease-in-out 0.5s;
     }
 
