@@ -9,6 +9,7 @@
     font-family: "Raleway";
     position: relative;
     background-color: #001D3D;
+    background: linear-gradient(to right, rgb(0, 23, 47), rgb(0, 50, 92), rgba(0,29,61,1));
     display: flex;
     justify-content: center;
     align-items: center;

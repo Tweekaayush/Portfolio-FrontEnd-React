@@ -4,7 +4,7 @@ footer{
     left: 0;
     bottom: 0;
     height: 226px;
-    background-color: #003566;
+    background-color: #00417e;
     color: white;
     display: flex;
     justify-content: center;
@@ -44,6 +44,7 @@ footer{
     padding: 17px;
     color: white;
     background-color: #0665BD;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: scale(1);
     transition: all 0.5s;
     font-size: 1.5rem;

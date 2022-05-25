@@ -41,7 +41,6 @@ function Home(){
             <div className="box"></div>
             <div className="box"></div>
             <div className="box"></div>
-            <div className="box"></div>
         </section>
     );
 }
