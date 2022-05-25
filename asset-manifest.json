@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-frontEnd-react/static/css/main.90c73539.css",
-    "main.js": "/portfolio-frontEnd-react/static/js/main.9be4147a.js",
+    "main.css": "/portfolio-frontEnd-react/static/css/main.1483f36b.css",
+    "main.js": "/portfolio-frontEnd-react/static/js/main.f4b4d53b.js",
     "static/media/todolist.png": "/portfolio-frontEnd-react/static/media/todolist.c7e59093009860bdfa22.png",
     "static/media/myResume.pdf": "/portfolio-frontEnd-react/static/media/myResume.2a719d3733b676f57435.pdf",
     "static/media/IMG_1670.JPG": "/portfolio-frontEnd-react/static/media/IMG_1670.3855b172b75f2cd4548f.JPG",
     "static/media/patatap.png": "/portfolio-frontEnd-react/static/media/patatap.087fb7b79e7172cd69ed.png",
     "index.html": "/portfolio-frontEnd-react/index.html",
-    "main.90c73539.css.map": "/portfolio-frontEnd-react/static/css/main.90c73539.css.map",
-    "main.9be4147a.js.map": "/portfolio-frontEnd-react/static/js/main.9be4147a.js.map"
+    "main.1483f36b.css.map": "/portfolio-frontEnd-react/static/css/main.1483f36b.css.map",
+    "main.f4b4d53b.js.map": "/portfolio-frontEnd-react/static/js/main.f4b4d53b.js.map"
   },
   "entrypoints": [
-    "static/css/main.90c73539.css",
-    "static/js/main.9be4147a.js"
+    "static/css/main.1483f36b.css",
+    "static/js/main.f4b4d53b.js"
   ]
 }
