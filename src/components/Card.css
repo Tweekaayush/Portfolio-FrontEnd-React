@@ -76,7 +76,7 @@
     color: white;
     border-radius: 30px;
     overflow: hidden;
-    transition: all 1s;
+    transition: all 0.3s;
     position: relative;
     font-weight: bold;
     letter-spacing: 1px;
@@ -100,7 +100,7 @@
     transform: translateX(0);
 }
 .card-btn:hover{
-    border: none;
+    border-color: rgba(1, 15, 80, 0.8);
     color: rgba(1, 15, 80, 1);
 }
 

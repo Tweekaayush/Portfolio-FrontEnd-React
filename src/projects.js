@@ -17,7 +17,7 @@ const projects = [
     {
         id:1,
         img: weatherApp,
-        Title:"Weather App",
+        title:"Weather App",
         link:"https://tweekaayush.github.io/weather-app-react/",
 
     }
